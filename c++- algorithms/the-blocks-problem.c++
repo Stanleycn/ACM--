@@ -1,3 +1,5 @@
+//从左到右有n个木块，编号为0-n-1，模拟四种操作： move a onto b;move a over b;pile a onto b;pile a over b
+//onto 则清空b以上的木块回归原位，move则a。pile则是将目标以上放在另一个上
 #include<cstdio>
 #include<string>
 #include<algorithm>
