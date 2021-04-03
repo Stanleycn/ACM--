@@ -98,7 +98,7 @@ int find_maximum_subarray(int* A,int low,int high)
         int d[3]=find_max_crossing_subarray(A,low,mid,high);
         if(b[2]>=c[2] && b[2]>=d[2])
         {
-            int b;
+            return b;
         }
         else if(c[2]>=b[2] && c[2]>=d[2])
         {
